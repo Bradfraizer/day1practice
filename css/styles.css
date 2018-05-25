@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+}
+.clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.header {
+  background-color: #00ff00;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.nav-links{
+  background-color: #ff9900;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+  background-color: #ffff00;
+  padding: 50px 0;
+  width: 75%;
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+  background-color: #00ccff;
+  padding: 50px 0;
+  width: 25%;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ff0066;
+  padding: 50px 0;
+  text-align: center;
+
+}
